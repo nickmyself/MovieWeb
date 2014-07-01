@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <title>Database management course project</title>
+       <link rel="shortcut icon" href="../favicon.ico"> 
+       <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/modernizr.custom.63321.js"></script>
+	<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+			<header>
+				<h1>Online Movie<strong> Database</strong></h1>
+				<h2>Simply Search by</h2>
+				<div class="support-note">
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+			</header>
+			
+			<section class="main">
+				<form class="form-1" method="get" action="result.php">
+					<nav class="codrops-demos">
+						<input type="radio" name="attribute" value="MovieName"><a href=""> Name </a>
+						<input type="radio" name="attribute" value="year"><a href=""> Year </a>
+						<input type="radio" name="attribute" value="Language"><a href="">Language</a>
+						<input type="radio" name="attribute" value="Director"><a href="">Director</a>
+						<input type="radio" name="attribute" value="Actor"><a href=""> Actor </a>
+						<input type="radio" name="attribute" value="GenreName"><a href=""> Genre </a>
+					</nav>
+					<p class="field">
+						<input type="text" name="info" placeholder="enter your information">
+						<i class="icon-user icon-large"></i>
+					</p>
+						
+					<p class="submit">
+						<button type="submit" name="submit"><i class="icon-arrow-right icon-large"></i></button>
+					</p>
+				</form>
+			</section>
+        </div>
+    </body>
+</html>
